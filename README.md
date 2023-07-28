@@ -1,0 +1,1 @@
+# Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior
