@@ -49,3 +49,10 @@ También agregamos el RemotePath (/My Documents) la ubicación dónde queremos a
 
 Repetimos el mismo proceso para el FTP Reporte Dia Anterior. 
 Nota: En la opción de OverwriteFileAtDest colocar True.
+
+Podemos ejecutar el proyecto para validar que efectivamente se cargaron los archivos al servidor FTP.
+
+<p align ="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen7.png">
+</p>
+
