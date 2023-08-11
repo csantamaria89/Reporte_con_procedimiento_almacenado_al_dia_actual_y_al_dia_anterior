@@ -11,10 +11,17 @@ o se produjo algún error.
 2. Usaremos la base de datos de NORTHWND la cual adjunto a este proyecto. "Script-Northwnd.sql"
 3. Crearemos los siguientes SPs que también adjunto a este proyecto. "ReporteDiaActual_y_Anterior.sql"
 
-En nuestro proyecto SSIS, crearemos dos variables ReporteActual y ReporteDiaAnterior, cada una la definiremos de tipo String y le agregaremos en el campo valor la ejecución del SP terminado por un punto y coma:
+4. En nuestro proyecto SSIS, crearemos dos variables ReporteActual y ReporteDiaAnterior, cada una la definiremos de tipo String y le agregaremos en el campo valor la ejecución del SP terminado por un punto y coma:
 
 <p align="center">
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen1.png"  height=150>
 </p>
+
+5. Creamos un Data Flow Task, el cual llamaremos Generar Reportes. Ingresamos y en el Data Flow creamos dos nuevos origenes de datos OLE DB Source (Origen Dia Actual y Origen Dia Anterior)para cpnectar con la base de datos NORTHWND y ejecutar directamente los SPs con las variables que creamos:
+
+<p align="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen2.png"  height=450>
+</p>
+
 
 
