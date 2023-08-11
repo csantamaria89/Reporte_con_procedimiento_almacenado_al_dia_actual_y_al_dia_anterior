@@ -62,4 +62,30 @@ Podemos ejecutar el proyecto para validar que efectivamente se cargaron los arch
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen8.png">
 </p>
 
+En la ventana anterior hacer clic en ```Edit Script...```. Puedes utilizar el siguiente código para configurar el correo. Este mismo proceso se realiza en un nuevo Script task para el caso que el reporte no se ha enviado correctamente. Nota: Este nuevo enlace se debe configurar con valor Failure.
 
+```shell
+--Librerias a importar
+using System.Net;
+using System.Net.Mail;
+
+
+--Código para enviar correo electrónico
+SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.EnableSsl = true;
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = new NetworkCredential("IntroducirCorreoElectronico", "IntroducirContraseñaDeAplicaciones");
+            MailMessage msg = new MailMessage();
+            msg.IsBodyHtml = true;
+            msg.From = new MailAddress("IntroducirCorreoElectronico");
+
+            string addresses = "IntroducirCorreoElectronico;IntroducirCorreoElectronico";
+            foreach (var address in addresses.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                msg.To.Add(address);
+            }
+
+            msg.Subject = "Introducir Asunto";
+            msg.Body = "Introducir Contenido.";
+            smtp.Send(msg);
+```
