@@ -39,4 +39,10 @@ Procederemos a ejecutar el proyecto para cargar los archivos de Excel.
 <p align ="center">
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen5.png">
 </p>
-   
+
+Configuramos los parametros del servidor, para este ejemplo use una cuenta gratuita de "DriveHQ". Una ves probada la conexión, vamos a agregar en File Transfer el archivo que queremos transferir al servidor FTP. En este caso agregamos el LocalPath (El archivo Excel que creamos para Reporte Dia Actual y Reporte Dia Anterior).
+También agregamos el RemotePath (/My Documents) la ubicación dónde queremos alojar el archivo en el servidor FTP.
+
+<p align ="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen6.png">
+</p>
