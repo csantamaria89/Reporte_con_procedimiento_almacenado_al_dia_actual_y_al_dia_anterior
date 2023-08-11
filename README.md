@@ -25,3 +25,13 @@ o se produjo algún error.
 
 Repetimos el procedimiento para Origen Dia Anterior.
 
+6. Ahora vamos a establecer los destinos de Excel, para ello en un repositorio vamos a crear dos archivos de excel. Uno para Reporte Dia Actual y otro para Reporte Dia Anterior. Importante en cada archivo colocar los encabezados de la base de datos.
+
+<p align="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen3.png"  height=250>
+</p><p align="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen4.png"  height=250>
+</p>
+
+Procederemos a ejecutar el proyecto para cargar los archivos de Excel.
+
