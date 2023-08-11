@@ -8,3 +8,5 @@ o se produjo algún error.
 
 --------------------------------------------------------------
 1. Creamos un nuevo paquete SSIS.
+2. Usaremos la base de datos de NORTHWND la cual adjunto a este proyecto. "Script-Northwnd.sql"
+3. Crearemos los siguientes SPs que también adjunto a este proyecto. "ReporteDiaActual_y_Anterior.sql"
