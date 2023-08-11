@@ -14,5 +14,5 @@ o se produjo algún error.
 En nuestro proyecto SSIS, crearemos dos variables ReporteActual y ReporteDiaAnterior, cada una la definiremos de tipo String y le agregaremos en el campo valor la ejecución del SP terminado por un punto y coma:
 
 <p align="center">
-<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob/main/assets/Imagen1.png"  height=450>
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob/main/assets/imagen1.png"  height=250>
 </p>
