@@ -56,4 +56,10 @@ Podemos ejecutar el proyecto para validar que efectivamente se cargaron los arch
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen7.png">
 </p>
 
-8. Finalmente vamos a enviar un correo especificando si el reporte se subió al servidor FTP. Para ello vamos a agregar un Script task al Control Flow 
+8. Finalmente vamos a enviar un correo especificando si el reporte se subió al servidor FTP. Para ello vamos a agregar un Script task al Control Flow.
+
+<p align ="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen8.png">
+</p>
+
+
