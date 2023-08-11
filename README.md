@@ -35,3 +35,9 @@ Repetimos el procedimiento para Origen Dia Anterior.
 
 Procederemos a ejecutar el proyecto para cargar los archivos de Excel.
 
+7. De acuerdo con lo que nos solicitan al inicio del requerimiento, vamos a agregar al control flow un FTP Task para subir los reportes a un servidor FTP.
+
+</p><p align="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen5.png"  height=250>
+</p>
+   
