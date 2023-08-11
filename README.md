@@ -10,3 +10,6 @@ o se produjo algún error.
 1. Creamos un nuevo paquete SSIS.
 2. Usaremos la base de datos de NORTHWND la cual adjunto a este proyecto. "Script-Northwnd.sql"
 3. Crearemos los siguientes SPs que también adjunto a este proyecto. "ReporteDiaActual_y_Anterior.sql"
+
+En nuestro proyecto SSIS, crearemos dos variables ReporteActual y ReporteDiaAnterior, cada una la definiremos de tipo String y le agregaremos en el campo valor la ejecución del SP terminado por un punto y coma:
+
