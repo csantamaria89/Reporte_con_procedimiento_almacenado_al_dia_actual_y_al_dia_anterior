@@ -23,5 +23,5 @@ o se produjo algún error.
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen2.png"  height=450>
 </p>
 
-
+Repetimos el procedimiento para Origen Dia Anterior.
 
