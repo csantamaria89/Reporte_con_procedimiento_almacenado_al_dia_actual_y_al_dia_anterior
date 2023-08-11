@@ -62,7 +62,7 @@ Podemos ejecutar el proyecto para validar que efectivamente se cargaron los arch
 <img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen8.png">
 </p>
 
-En la ventana anterior hacer clic en ```Edit Script...```. Puedes utilizar el siguiente código para configurar el correo. Este mismo proceso se realiza en un nuevo Script task para el caso que el reporte no se ha enviado correctamente. Nota: Este nuevo enlace se debe configurar con valor Failure.
+En la ventana anterior hacer clic en ```Edit Script...```. Puedes utilizar el siguiente código para configurar el correo. Este mismo proceso se realiza en un nuevo Script task para el caso que el reporte no se ha enviado correctamente. Nota: Este nuevo enlace se debe configurar con valor Failure (Ver última imagen).
 
 ```shell
 --Librerias a importar
@@ -89,3 +89,8 @@ SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
             msg.Body = "Introducir Contenido.";
             smtp.Send(msg);
 ```
+
+
+<p align ="center">
+<img src="https://github.com/csantamaria89/Reporte_con_procedimiento_almacenado_al_dia_actual_y_al_dia_anterior/blob//main/Assets/Imagen9.png">
+</p>
